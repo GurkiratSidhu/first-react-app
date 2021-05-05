@@ -1,10 +1,10 @@
 import React from 'react';
-
-function Tweet(){
+import './App.css';
+function Tweet({name, message}){
     return(
-        <div>
-            <h3> Name</h3> 
-            <p> This is a tweet</p>
+        <div className="tweet">
+            <h1>{name}</h1> 
+            <p>{message}</p>
         </div>
     )
 }
