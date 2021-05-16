@@ -8,8 +8,7 @@ function App(){
   const  increment = () => {
     setCount(count +1);
   }
-
-
+  
   return(
   <div className="app">
     <Tweet name="A" message="1" />
